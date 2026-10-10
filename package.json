@@ -1,0 +1,12 @@
+{
+  "name": "hastareka-post-engine",
+  "version": "1.0.0",
+  "description": "Daily Automated FB Post Generator for Hastareka via Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
