@@ -20,6 +20,7 @@ POST STYLE & STRUCTURE:
 3. High Uniqueness Factor (විශේෂත්වය): Frame the information so it feels elite, highly analytical, and rare.
 4. Soft Invitation (අවසාන සටහන): A polite, non-pushy ending note inviting them to discover their own chart statistics and rare planetary alignments for free at Hastareka.com.
 5. Link: Include https://hastareka.com clearly.
+6.minimum 150words.
 
 Do NOT push for action steps, habits, or sales pitches. Keep the posture educational, intellectual, and fascinating.
 `;
@@ -42,7 +43,7 @@ async function generateAndSendPost() {
 
     const generatedPost = aiResponse.data.candidates[0].content.parts[0].text.trim();
 
-    const telegramMessage = `🚀 **අද දින ජ්‍යොතිෂ Post එක සූදානම්!**\n\nමෙය Copy කර FB Groups වලට Share කරන්න:\n\n────────────────\n${generatedPost}\n────────────────\n\n👉 https://hastareka.com`;
+    const telegramMessage = `🚀 **සියලු දෙනාට ජයග්‍රාහී දවසක් වේවා !**\n\n උත්සාහවන්තයා ජයගනී:\n\n────────────────\n${generatedPost}\n────────────────\n\n👉 https://hastareka.com`;
 
     console.log('Sending message to Telegram...');
     const telegramUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
