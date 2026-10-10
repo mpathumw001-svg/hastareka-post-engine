@@ -20,7 +20,7 @@ POST STYLE & STRUCTURE:
 3. High Uniqueness Factor (විශේෂත්වය): Frame the information so it feels elite, highly analytical, and rare.
 4. Soft Invitation (අවසාන සටහන): A polite, non-pushy ending note inviting them to discover their own chart statistics and rare planetary alignments for free at Hastareka.com.
 5. Link: Include https://hastareka.com clearly.
-6.minimum 150words.
+6.maximum 130words.
 
 Do NOT push for action steps, habits, or sales pitches. Keep the posture educational, intellectual, and fascinating.
 `;
